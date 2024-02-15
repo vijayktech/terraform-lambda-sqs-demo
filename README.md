@@ -35,3 +35,8 @@ The plan command lets you see what Terraform will do before actually making any 
 
 ### `terraform apply`
 You’ll notice that the apply command shows you the same plan output and asks you to confirm whether you actually want to proceed with this plan.
+
+## Secret Manager using Terraform Code
+**Refer code**
+https://github.com/lgallard/terraform-aws-secrets-manager?tab=readme-ov-file
+
