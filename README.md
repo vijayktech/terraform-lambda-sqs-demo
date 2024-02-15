@@ -23,6 +23,12 @@ Run below commands
 
 ### `terraform init`
 Terraform will download the necessary provider plugins and create a hidden .terraform directory in your project.
+* Below files and directory created in the project when do `terraform init`
+```
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+```
 
 ### `terraform plan`
 The plan command lets you see what Terraform will do before actually making any changes. This is a great way to sanity-check your code before unleashing it onto the world.
